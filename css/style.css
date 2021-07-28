@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    /* border: 1px solid #000; */
+    background-color: aqua;
+}
+
+.nav .container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.nav .container img {
+    width: 171px;
+    height: 59px;
+}
+
+.nav .container .item {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav .container .item li {
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.nav .container .item li.choosed,
+.nav .container .item li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* 平板屏幕 */
+
+@media (max-width:992px) and (min-width:768px) {
+    .nav .container .item li {
+        padding: 0px 10px;
+    }
+}
+
+
+/* 超小屏幕手机样式 */
+
+@media (max-width:767px) {
+    .nav .container {
+        height: 160px;
+        flex-wrap: wrap;
+    }
+    .nav .container .item {
+        height: 100px;
+        min-width: 549px;
+    }
+    .nav .container .item li {
+        text-align: center;
+        flex: 1;
+    }
+}
