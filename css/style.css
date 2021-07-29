@@ -57,12 +57,6 @@ body {
     margin-top: 58px;
 }
 
-.intro .col-lg-4,
-.intro .col-md-4,
-.intro .col-sm-4 {
-    display: flex;
-}
-
 .intro .item {
     text-align: center;
     background-color: #fff;
@@ -87,7 +81,6 @@ body {
     line-height: 23px;
     padding: 0 10px;
     min-height: 200px;
-    /* height: 200px; */
 }
 
 .intro .item .more {
@@ -98,6 +91,35 @@ body {
     border: 1px #aaa dashed;
     margin: 0 auto;
     text-align: center;
+}
+
+.attr-list {
+    background: url("../img/attr5.png") repeat;
+}
+
+.attr-list .row {
+    text-align: center;
+}
+
+.attr-list .row h2 {
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.attr-list .row img {
+    width: 168px;
+    height: 168px;
+}
+
+.attr-list .col-lg-3,
+.attr-list .col-sm-3,
+.attr-list .col-md-3 {
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 
