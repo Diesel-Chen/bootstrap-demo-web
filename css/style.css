@@ -4,9 +4,18 @@
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html,
+body {
+    background-color: #f7f1eb;
+}
+
 .nav {
-    /* border: 1px solid #000; */
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .nav .container {
@@ -29,6 +38,7 @@
 .nav .container .item li {
     line-height: 60px;
     height: 60px;
+    cursor: pointer;
     padding: 0px 20px;
     font-size: 16px;
 }
@@ -37,6 +47,57 @@
 .nav .container .item li:hover {
     background-color: #000;
     color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 58px;
+}
+
+.intro .col-lg-4,
+.intro .col-md-4,
+.intro .col-sm-4 {
+    display: flex;
+}
+
+.intro .item {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.intro .item img {
+    width: 100%;
+}
+
+.intro .item h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0 30px;
+}
+
+.intro .item p {
+    text-align: left;
+    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 10px;
+    min-height: 200px;
+    /* height: 200px; */
+}
+
+.intro .item .more {
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    line-height: 62px;
+    border: 1px #aaa dashed;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -58,10 +119,16 @@
     }
     .nav .container .item {
         height: 100px;
-        min-width: 549px;
+        min-width: 565px;
+        align-items: flex-end;
     }
     .nav .container .item li {
+        padding: 0px 5px;
         text-align: center;
         flex: 1;
+    }
+    .intro .item img {
+        width: 370px;
+        height: 207px;
     }
 }
