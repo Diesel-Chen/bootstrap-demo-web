@@ -122,6 +122,38 @@ body {
     flex-wrap: wrap;
 }
 
+.prod-list .title {
+    font-size: 18px;
+    text-align: center;
+    /* margin: 40px 0 70px; */
+}
+
+.prod-list .item {
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px#ddd;
+}
+
+.prod-list .img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.prod-list .img img {
+    width: 225px;
+}
+
+.prod-list .row img {
+    width: 100%;
+}
+
+.prod-list p {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 0 10px;
+}
+
 
 /* 平板屏幕 */
 
